@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Gradient background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company-logo {
+    width: 150px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.community-member {
+    max-width: 1300px; /* Adjusted max-width to accommodate image */
+    margin: 20px auto;
+    background-color: #f39c12; /* Orange color */
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.community-member img {
+    border-radius: 10%;
+    width: 300px; /* Adjusted width of the image */
+    margin-left: 20px;
+}
+
+.member-details {
+    flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

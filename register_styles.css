@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #9575cd, #673ab7); /* Gradient background - Purple to Deep Purple */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company-logo {
+    width: 150px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.register-section {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #009688; /* Teal color */
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50; /* Green color */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #388e3c; /* Dark Green color */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

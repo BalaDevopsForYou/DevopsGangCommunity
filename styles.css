@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Gradient background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company-logo {
+    width: 450px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, violet, red); /* Gradient from violet to red */
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.challenges-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #2ecc71; /* Change this color to your desired background color */
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+/* Additional styling for a subtle pattern background */
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('subtle-pattern.png'); /* Replace 'subtle-pattern.png' with your actual pattern image */
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: -1;
+}
